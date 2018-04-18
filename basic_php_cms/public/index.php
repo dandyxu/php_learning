@@ -1,7 +1,17 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Wenqian
- * Date: 4/18/2018
- * Time: 10:04 AM
- */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+	<title>Basic PHP CMS</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+
+<body>
+	<h1>Basic PHP CMS: Coming Soon...</h1>
+
+
+</body>
+</html>
