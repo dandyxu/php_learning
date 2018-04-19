@@ -1,7 +1,12 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Wenqian
- * Date: 4/18/2018
- * Time: 10:04 AM
- */
+<?php require_once('../../../private/initialize.php'); ?>
+
+
+<?php $page_title='Subject'; ?>
+
+<?php include('../../../private/shared/staff_header.php'); ?>
+
+<div id="content">
+
+</div>
+
+<?php include('../../../private/shared/staff_footer.php'); ?>

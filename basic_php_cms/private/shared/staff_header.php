@@ -1,7 +1,11 @@
+<?php
+	if(!isset($page_title)) { $page_title = 'Staff Area'; }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>CMS Staff</title>
+	<title>CMS Staff - <?php echo $page_title; ?></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
