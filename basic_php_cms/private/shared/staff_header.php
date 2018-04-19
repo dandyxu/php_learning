@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- CSS -->
-	<link rel="stylesheet" media="all" href="../css/staff.css">
+	<link rel="stylesheet" media="all" href="<?php echo url_for('css/staff.css'); ?>">
 
 </head>
 
@@ -21,6 +21,6 @@
 
 <navigation>
 	<ul>
-		<li><a href="index.php">Menu</a></li>
+		<li><a href="<?php echo url_for('/staff/index.php'); ?>">Menu</a></li>
 	</ul>
 </navigation>
