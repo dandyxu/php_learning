@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8387c425-db41-4135-b821-d39343236e51" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/basic_php_cms/public/css/staff.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_php_cms/public/staff/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_php_cms/public/staff/pages/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_php_cms/public/staff/subjects/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_php_cms/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic_php_cms/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_php_cms/public/css/staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/basic_php_cms/public/css/staff.css" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_php_cms/public/staff/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#297#303#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staff.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic_php_cms/public/css/staff.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="124" column="22" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -59,10 +64,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/basic_php_cms/public/index.php" />
-        <option value="$PROJECT_DIR$/basic_php_cms/public/css/staff.css" />
         <option value="$PROJECT_DIR$/basic_php_cms/public/staff/index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/basic_php_cms/public/css/staff.css" />
       </list>
     </option>
   </component>
@@ -107,6 +112,13 @@
               <item name="php_learning" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="basic_php_cms" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_learning" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="basic_php_cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -162,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524040620266</updated>
       <workItem from="1524040621682" duration="2485000" />
-      <workItem from="1524063277889" duration="3474000" />
+      <workItem from="1524063277889" duration="6290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5959000" />
+    <option name="totallyTimeSpent" value="8775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,13 +261,6 @@
     <entry file="file://$PROJECT_DIR$/basic_php_cms/public/staff/pages/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -269,16 +274,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_php_cms/public/css/staff.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic_php_cms/public/staff/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#297#303#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_php_cms/public/css/staff.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="124" column="22" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
         </state>
       </provider>
     </entry>
