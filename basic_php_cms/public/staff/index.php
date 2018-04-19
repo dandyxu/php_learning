@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>CMS Staff</title>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<?php require_once('../../private/initialize.php'); ?>
 
-    <!-- CSS -->
-    <link rel="stylesheet" media="all" href="../css/staff.css">
+<?php include('../../private/shared/staff_header.php'); ?>
 
-</head>
+<div id="content">
 
-<body>
-	<header>
-        <h1>CMS Staff Area</h1>
-    </header>
+</div>
 
-    <navigation>
-        <ul>
-            <li><a href="index.php">Menu</a></li>
-        </ul>
-    </navigation>
-
-    <footer>
-        &copy; <?php echo date('Y'); ?> Basic PHP CMS
-    </footer>
-</body>
-
-</html>
+<?php include('../../private/shared/staff_footer.php'); ?>
