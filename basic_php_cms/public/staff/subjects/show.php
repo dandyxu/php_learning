@@ -12,7 +12,8 @@ require_once('../../../private/initialize.php');
 
 $id = $_GET['id'] ?? '1'; // PHP > 7.0
 
-echo $id;
+// htmlspecialchars to prevent XSS (Cross-site Scripting)
+echo h($id);
 
 ?>
 

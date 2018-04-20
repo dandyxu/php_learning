@@ -33,3 +33,12 @@ function u($string="") {
 function raw_u($string="") {
 	return urlencode($string);
 }
+
+/**
+ * @param string $string
+ *
+ * @return string
+ */
+function h($string="") {
+	return htmlspecialchars($string);
+}
