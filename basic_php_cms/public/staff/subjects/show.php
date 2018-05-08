@@ -15,6 +15,14 @@ $id = $_GET['id'] ?? '1'; // PHP > 7.0
 // htmlspecialchars to prevent XSS (Cross-site Scripting)
 //echo h($id);
 
+$sql = "SELECT * FROM subjects ";
+$sql .= "WHERE id='" . $id . "'";
+$result = mysqli_query($db, $sql);
+confirm_result_set($result);
+
+$subject = mysqli_fetch_assoc($result);
+mysqli_free_result($result);
+
 ?>
 
 <?php $page_title = 'Show Subject'; ?>
@@ -30,7 +38,22 @@ $id = $_GET['id'] ?? '1'; // PHP > 7.0
 
     <div class="subject show">
 
-        Subject ID: <?php echo h($id); ?>
+<!--        Subject ID: --><?php //echo h($id); ?>
+        <h1>Subject: <?php echo h($subject['menu_name']); ?></h1>
 
+        <div class="attributes">
+            <dl>
+                <dt>Menu Name</dt>
+                <dd><?php echo h($subject['menu_name']); ?></dd>
+            </dl>
+            <dl>
+                <dt>Position</dt>
+                <dd><?php echo h($subject['position']); ?></dd>
+            </dl>
+            <dl>
+                <dt>Visible</dt>
+                <dd><?php echo h($subject['visible'] == '1' ? 'true' : 'false'); ?></dd>
+            </dl>
+        </div>
     </div>
 </div>
