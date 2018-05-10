@@ -38,9 +38,7 @@
  }
 
 /**
- * @param $menu_name
- * @param $position
- * @param $visible
+ * @param $subject
  *
  * @return bool
  */
