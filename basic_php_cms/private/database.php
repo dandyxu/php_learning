@@ -27,6 +27,16 @@
 	}
 
 /**
+ * @param $connection
+ * @param $string
+ *
+ * @return string
+ */
+	function db_escape($connection, $string) {
+		return mysqli_real_escape_string($connection, $string);
+	}
+
+/**
  * PHP Database Connection Error Handling
  */
 	function confirm_db_connect() {
